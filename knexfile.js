@@ -6,6 +6,14 @@ module.exports = {
     client: 'sqlite3',
     connection: {
       filename: './dev.sqlite3'
+    },
+    migrations: {
+      tableName: 'knex_migrations',
+      directory: `${__dirname}/src/database/migrations`
+    },
+    useNullAsDefault: true,
+    seeds: {
+      directory: `${__dirname}/src/database/seeds`
     }
   },
 

@@ -1,0 +1,17 @@
+{
+  "name": "masterclass-knex",
+  "version": "0.0.1",
+  "description": "MasterClass 13: NodeJs com Knex - Rocketseat ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Simões",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^4.2.0"
+  }
+}
